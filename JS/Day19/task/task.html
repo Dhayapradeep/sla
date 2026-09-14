@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APIs Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ccc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        img {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+        }
+
+        .post, .comment, .todo {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product-card {
+            width: 220px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Five APIs Dashboard</h1>
+
+    <!-- API 1: Users -->
+    <section>
+        <h2>1. Users API</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+
+            <tbody id="usersData"></tbody>
+        </table>
+    </section>
+
+
+    <!-- API 2: Products -->
+    <section>
+        <h2>2. Products API</h2>
+
+        <div id="productsData" class="product-container"></div>
+    </section>
+
+
+    <!-- API 3: Posts -->
+    <section>
+        <h2>3. Posts API</h2>
+
+        <div id="postsData"></div>
+    </section>
+
+
+    <!-- API 4: Comments -->
+    <section>
+        <h2>4. Comments API</h2>
+
+        <div id="commentsData"></div>
+    </section>
+
+
+    <!-- API 5: Todos -->
+    <section>
+        <h2>5. Todos API</h2>
+
+        <div id="todosData"></div>
+    </section>
+</body>
+<script src="task.js"></script>
+</html>
