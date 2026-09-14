@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Toggle</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #ddd;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin: 15px 0;
+}
+
+.hide {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.show {
+    opacity: 1;
+    max-height: 150px;
+    transition: 0.5s;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://picsum.photos/300/180" alt="Student">
+        <h2>JavaScript Course</h2>
+
+        <div id="details" class="hide">
+            <p>Learn JavaScript from basics to advanced concepts including DOM, functions, arrays and ES6.</p>
+        </div>
+
+        <button id="detailsBtn">Show Details</button>
+    </div>
+</body>
+<script src="task3.js"></script>
+</html>

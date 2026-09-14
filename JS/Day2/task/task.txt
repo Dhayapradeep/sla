@@ -1,0 +1,36 @@
+var studentName = "Dhayapradeep";
+var city = "Chennai";
+var course = "Generative AI";
+var college = "SRMIST";
+var company = "Google";
+var language = "JavaScript";
+var subject = "Web Development";
+var country = "India";
+var browser = "Chrome";
+var technology = "React";
+
+let age = 21;
+let marks = 85;
+let fees = 50000;
+let salary = 35000;
+let experience = 2;
+let students = 120;
+let courses = 8;
+let price = 999;
+let score = 95;
+let year = 2026;
+
+const isPlaced = false;
+const isStudent = true;
+const isLoggedIn = true;
+const isAvailable = false;
+const isCompleted = true;
+
+var studentName = "Dhayapradeep";
+console.log(studentName);
+
+let age = 21;
+console.log(age);
+
+const isPlaced = false;
+console.log(isPlaced);

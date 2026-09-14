@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 180px;
+  padding: 20px;
+
+  border: 2px solid black;
+  border-radius: 10px;
+
+  background-color: lightblue;
+
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+/* Card 2 is completely removed */
+.display-none {
+  display: none;
+}
+
+/* Card 3 is hidden but its space remains */
+.visibility-hidden {
+  visibility: hidden;
+}

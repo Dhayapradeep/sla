@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    background-color: royalblue;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+}

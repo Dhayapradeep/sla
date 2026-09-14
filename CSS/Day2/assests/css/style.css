@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none ;
+}
+
+div{
+    background-color:chocolate;
+    color: black;
+    text-align: center;
+}
+
+.second {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-family: cursive;
+}
+
+#home {
+    background-color: brown;
+    color: aliceblue;
+}
+
+#home2 {
+    background-color: black;
+    color: aliceblue;
+}
+

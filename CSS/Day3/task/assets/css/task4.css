@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+.news-card {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+
+.second {
+    margin-top: 50px;
+}
+
+
+.news-card img {
+    width: 100%;
+    height: 220px;
+    border: 2px solid #666;
+}
+
+.news-card h2 {
+    text-align: center;
+    color: #003366;
+}
+
+.news-card p {
+    margin-top: 15px;
+    color: #444;
+}
+
+
+.news-card h4,
+.news-card h5 {
+    margin-top: 10px;
+    color: #555;
+}

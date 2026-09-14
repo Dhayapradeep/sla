@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.students {
+    width: 300px;
+    margin: auto;
+    list-style-type: none;
+}
+
+.students li {
+    padding: 12px;
+    margin: 8px 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.students li:first-child {
+    background-color: lightgreen;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.students li:last-child {
+    background-color: lightcoral;
+    color: darkred;
+    font-weight: bold;
+}

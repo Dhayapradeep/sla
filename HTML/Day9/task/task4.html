@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+</head>
+<body>
+
+    <h2>Engineering College Admission Form</h2>
+
+    <form>
+
+        <label for="studentname">Student Name:</label><br>
+        <input type="text" id="studentname" name="studentname" placeholder="Enter Student Name" required><br><br>
+
+        <label for="fathername">Father Name:</label><br>
+        <input type="text" id="fathername" name="fathername" placeholder="Enter Father Name" required><br><br>
+
+        <label for="mothername">Mother Name:</label><br>
+        <input type="text" id="mothername" name="mothername" placeholder="Enter Mother Name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter Email" required><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <label for="department">Department:</label><br>
+        <select id="department" name="department">
+            <option value="">--Select Department--</option>
+            <option>Computer Science Engineering</option>
+            <option>Information Technology</option>
+            <option>Electronics & Communication</option>
+            <option>Electrical & Electronics</option>
+            <option>Mechanical Engineering</option>
+            <option>Civil Engineering</option>
+        </select>
+        <br><br>
+
+        <label for="percentage">Percentage:</label><br>
+        <input type="number" id="percentage" name="percentage" min="0" max="100" placeholder="Enter Percentage"><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="40" placeholder="Enter Address"></textarea>
+        <br><br>
+
+        <label for="photo">Passport Size Photo:</label><br>
+        <input type="file" id="photo" name="photo"><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+    <hr>
+
+    <h2>Admission Report</h2>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Application ID</th>
+                <th>Student Name</th>
+                <th>Department</th>
+                <th>Percentage</th>
+                <th>Email</th>
+                <th>Admission Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>APP001</td>
+                <td>Rahul Kumar</td>
+                <td>Computer Science Engineering</td>
+                <td>92%</td>
+                <td>rahul@gmail.com</td>
+                <td>Approved</td>
+            </tr>
+
+            <tr>
+                <td>APP002</td>
+                <td>Priya Sharma</td>
+                <td>Information Technology</td>
+                <td>88%</td>
+                <td>priya@gmail.com</td>
+                <td>Pending</td>
+            </tr>
+
+            <tr>
+                <td>APP003</td>
+                <td>Arun Kumar</td>
+                <td>Mechanical Engineering</td>
+                <td>81%</td>
+                <td>arun@gmail.com</td>
+                <td>Rejected</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

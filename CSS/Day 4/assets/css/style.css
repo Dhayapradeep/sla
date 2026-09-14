@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: cursive
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+    background-color: darksalmon;
+    color: crimson;
+    text-align: center;
+    width: 3000px;
+    height: 1000px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.child{
+    background-color:deeppink;
+    color:black;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}

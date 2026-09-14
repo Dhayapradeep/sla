@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+
+    <h2>Feedback Form</h2>
+    <p>We value your feedback. Please fill out the form below.</p>
+
+    <form action="#" method="post">
+
+        
+        <label for="name">Full Name:</label><br>
+        <input type="text"
+               id="name"
+               name="fullname"
+               placeholder="Enter your full name"
+               required><br><br>
+
+        
+        <label for="email">Email Address:</label><br>
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="example@gmail.com"
+               required><br><br>
+
+        
+        <label for="age">Age:</label><br>
+        <input type="number"
+               id="age"
+               name="age"
+               min="15"
+               max="100"><br><br>
+
+        
+        <label>Gender:</label><br>
+
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+    
+        <label for="rating">Overall Rating:</label><br>
+        <select id="rating" name="rating" required>
+            <option value="">--Select Rating--</option>
+            <option>Excellent</option>
+            <option>Very Good</option>
+            <option>Good</option>
+            <option>Average</option>
+            <option>Poor</option>
+        </select><br><br>
+
+      
+        <label>Would you recommend us?</label><br>
+
+        <input type="radio" id="yes" name="recommend" value="Yes">
+        <label for="yes">Yes</label>
+
+        <input type="radio" id="no" name="recommend" value="No">
+        <label for="no">No</label><br><br>
+
+
+        <label for="date">Date of Visit:</label><br>
+        <input type="date" id="date" name="visitdate"><br><br>
+
+        
+        <label for="comments">Comments / Suggestions:</label><br>
+        <textarea id="comments"
+                  name="comments"
+                  rows="6"
+                  cols="40"
+                  placeholder="Write your feedback here..."
+                  required></textarea><br><br>
+
+        
+        <input type="submit" value="Submit Feedback">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+</body>
+</html>

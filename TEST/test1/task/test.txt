@@ -1,0 +1,85 @@
+1. CSS stands for Cascading Style Sheets. Without css the webpage looks blank so css is used to design and style the webpage which is connected to it's respective html page.
+
+2. Cascading is the process of prioritize which css rule has to be applied. In this concept inline css has the most priority then internal and external.
+
+3. Cascading decides which CSS rule wins based on the order and type of css. Specificity considers the type of selector like id, class and parent child concept and gives priority.
+
+4. The Universal Selector selects all HTML elements on the page.
+	* {
+    margin: 0;
+    padding: 0;
+	}
+
+   The Element Selector selects all elements of a specific HTML tag.
+	h1 {
+    color: red;
+	}
+
+   The Class Selector selects elements with the same class name.
+	.title {
+    color: blue;
+    font-size: 30px;
+	}
+
+   The ID Selector selects a single element with a unique ID.
+	#main-title {
+    color: purple;
+	}
+
+   The Group Selector applies the same style to multiple selectors.
+	h1,
+	p,
+	h3 {
+    color: brown;
+	}
+
+   The Descendant Selector selects all matching elements inside another element, no matter how deeply nested.
+	div p {
+    color: blue;
+	}
+
+   The Child Selector selects only the direct children of an element.
+	div > p {
+    color: red;
+	}
+
+5. Class and ID selectors are used to apply CSS styles to HTML elements, but they serve different purposes.
+   A class is used when you want to apply the same style to multiple elements. An ID is used to style one unique element.
+
+6. Descendant Selector (A B) selects all matching elements that are nested anywhere inside another element. Child Selector (A > B) selects only the elements that are
+   the direct children of the specified parent element.
+
+7. The descendent selectps selects all the elements which is inside a parent element and child selector selects the direct element of thr child class. example for descendant selector: A B and example for child selector: div > p.
+
+8. The CSS Box Model is a layout model that describes how every HTML element is displayed as a rectangular box. It consists of four parts: Content, Padding, Border, and Margin. The Content is the actual text or image, Pading is the space around the content, Border surrounds the padding, and Margin is the outer space between the element and other elements.
+
+9. Padding is the space inside an element, between the content and its border, while Margin is the space outside the border, creating distance between the element and other elements.
+
+10. The **`box-sizing: border-box`** property makes the **width and height of an element include its content, padding, and border**. It is recommended because it makes sizing elements easier and prevents layouts from breaking when padding or borders are added, resulting in more predictable and responsive designs.
+
+11. The display: block property makes an element start on a new line and take up the full available width. The display: inline property keeps the element on the same line and does not allow width and height to be set. The display: inline-block property combines both behaviors by allowing the element to stay on the same line while also supporting width and height/.
+
+12. Yes, we can apply width and height to a div because it is a block-level element. We cannot normally apply width and height to a span because it is an inline element. We can apply width and height to a button because browsers render buttons as inline-block element.
+
+13. The display: none property completely removes an element from the webpage, and it does not occupy any space in the layout. In contrast, visibility: hidden hides the element from view but still reserves its original space on the page.
+
+14. Flexbox is a CSS layout model used to arrange and align elements efficiently in a container. It makes it easy to create responsive layouts by controlling the direction, alignment, spacing, and size of items.
+Flex Container: The parent element with display: flex;. It controls the layout of its child elements.
+Flex Item: The child elements inside a flex container. These items are arranged according to the flex container's properties.
+Main Axis: The primary direction in which flex items are placed. By default, it is horizontal (row), but it changes based on the flex-direction property.
+Cross Axis: The direction perpendicular to the main axis. If the main axis is horizontal, the cross axis is vertical, and vice versa.
+
+15. A `<div>` can be perfectly centered using **Flexbox** by applying the following CSS properties to its parent container:
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* display: flex – Converts the parent element into a flex container.
+* justify-content: center;` – Centers the child element horizontally along the main axis.
+* align-items: center;– Centers the child element vertically along the cross axis.
+* height: 100vh– Sets the container height to the full viewport height, allowing vertical centering.
+
+

@@ -1,0 +1,230 @@
+var
+
+var userName
+var collarBone
+var magicNumber
+var coffeeCup
+var sunsetColor
+var pixelPainter
+var codeWizard
+var dreamBuilder
+var moonLight
+var starDust
+var cloudRunner
+var dataStream
+var cyberTiger
+var rocketFuel
+var musicPlayer
+var gameScore
+var bookShelf
+var travelMap
+var oceanWave
+var forestTrail
+var goldenKey
+var secretCode
+var happyFace
+var smartRobot
+var digitalClock
+var webBrowser
+var photoFrame
+var videoPlayer
+var soundWave
+var keyboardKey
+var mousePointer
+var screenSize
+var batteryLevel
+var weatherReport
+var cityLights
+var mountainPeak
+var riverFlow
+var rainbowColor
+var fireSpark
+var iceCube
+var thunderBolt
+var shadowWalker
+var codeJourney
+var techDream
+var futureWorld
+var virtualSpace
+var brainPower
+var ideaFactory
+
+
+let
+let collarBone
+let userAge
+let favoriteColor
+let dailyGoal
+let codingTime
+let sleepyHead
+let pizzaSlice
+let bananaShake
+let movieNight
+let gameLevel
+let playerScore
+let enemyCount
+let treasureBox
+let magicDoor
+let secretMessage
+let randomNumber
+let currentTime
+let pageTitle
+let buttonText
+let fontSize
+let boxWidth
+let cardHeight
+let imageSource
+let videoTitle
+let songName
+let artistName
+let bookTitle
+let authorName
+let courseName
+let studentMark
+let teacherName
+let collegeName
+let projectName
+let taskCount
+let progressBar
+let downloadSpeed
+let internetStatus
+let batteryCharge
+let screenWidth
+let screenHeight
+let mousePosition
+let cursorSpeed
+let windowSize
+let scrollAmount
+let clickCount
+let loginStatus
+let searchQuery
+let messageCount
+
+const
+const goodChicken
+const goldenDragon
+const bluePlanet
+const redRocket
+const greenForest
+const purpleGalaxy
+const silverMoon
+const cosmicDust
+const digitalDream
+const futureMachine
+const smartAssistant
+const neuralNetwork
+const artificialBrain
+const robotFriend
+const quantumWorld
+const virtualReality
+const cyberCity
+const pixelWorld
+const codeMaster
+const dataGenius
+const techLegend
+const webChampion
+const appCreator
+const gameDeveloper
+const cloudStorage
+const dataCenter
+const serverRoom
+const securityShield
+const passwordVault
+const privacyGuard
+const fireWall
+const networkBridge
+const databaseEngine
+const searchEngine
+const imageGallery
+const videoLibrary
+const musicLibrary
+const userProfile
+const shoppingCart
+const paymentGateway
+const deliveryTruck
+const productCatalog
+const customerSupport
+const learningPortal
+const codingAcademy
+const knowledgeBase
+const successStory
+const innovationLab
+
+
+1. What is JavaScript?
+
+JavaScript is a programming language used to make web pages interactive and dynamic. It can be used for things like buttons, animations, form validation, calculations, and web applications.
+
+2. What is a variable?
+
+A variable is a named storage location used to store data in a program. For example, userName can store a person's name.
+
+let userName = "Dhayapradeep";
+
+3. What is variable declaration?
+
+Variable declaration means creating a variable by specifying its name using var, let, or const.
+
+let userName;
+
+Here, userName is declared but no value has been given yet.
+
+4. What is initialization?
+
+Initialization means giving an initial value to a variable when it is created.
+
+let age = 21;
+
+Here, age is declared and initialized with the value 21.
+
+5. What is an assignment operator?
+
+The assignment operator = is used to assign a value to a variable.
+
+let age;
+age = 21;
+
+Here, = assigns 21 to age.
+
+6. What are var, let and const?
+
+var, let, and const are JavaScript keywords used to declare variables.
+
+var city = "Chennai";
+let age = 21;
+const country = "India";
+
+7. What is the difference between var, let and const?
+Feature			var	let	const
+Redeclaration		Yes	No	No
+Reassignment		Yes	Yes	No
+Scope			Function	Block	Block
+Must initialize		No	No	Yes
+
+Example:
+
+var age = 20;
+age = 21;
+
+
+let score = 50;
+score = 60;
+
+
+const pi = 3.14;
+
+const cannot be reassigned after initialization.
+
+8. What is ES6?
+
+ES6 stands for ECMAScript 2015. It is a major version of JavaScript that introduced features such as let, const, arrow functions, classes, template literals, and destructuring.
+
+9. What is a JavaScript Engine?
+
+A JavaScript Engine is a program that reads, processes, and executes JavaScript code. Different browsers use different JavaScript engines.
+
+Examples include V8, SpiderMonkey, and JavaScriptCore.
+
+10. What is V8?
+
+V8 is a JavaScript engine developed by Google. It is used in Google Chrome and also powers JavaScript execution in environments such as Node.js.

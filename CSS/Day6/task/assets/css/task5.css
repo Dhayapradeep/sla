@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.box {
+    width: 220px;
+    height: 70px;
+    margin: 20px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.static {
+    position: static;
+    background-color: steelblue;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 40px;
+    background-color: tomato;
+}
+.parent {
+    position: relative;
+    height: 180px;
+    border: 2px dashed gray;
+    margin-top: 50px;
+}
+
+.absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: seagreen;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: purple;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: orange;
+    z-index: 1000;
+}
+
+.content {
+    margin-top: 30px;
+    height: 1500px;
+}
+
+.content p {
+    margin: 15px 0;
+}

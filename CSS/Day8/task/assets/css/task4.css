@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.title {
+    margin: 20px 0;
+    color: #333;
+}
+
+.title::before {
+    content: "★ ";
+    color: gold;
+}
+
+.title::after {
+    content: " ✔";
+    color: green;
+}

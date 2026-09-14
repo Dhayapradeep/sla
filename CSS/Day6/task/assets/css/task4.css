@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box1 {
+    background-color: royalblue;
+}
+
+.box2 {
+    background-color: crimson;
+
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+
+.box3 {
+    background-color: seagreen;
+}
