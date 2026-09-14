@@ -1,1 +1,16 @@
-document.addEventListener('DOMContentLoaded',()=>{const current=location.pathname.split('/').pop()||'index.html';document.querySelectorAll('nav a').forEach(a=>{if(a.getAttribute('href')===current)a.classList.add('active')});const year=document.querySelector('#year');if(year)year.textContent=new Date().getFullYear()});
+document.addEventListener('DOMContentLoaded', () => {
+    const current =
+        location.pathname.split('/').pop() || 'index.html';
+
+    document.querySelectorAll('nav a').forEach(a => {
+        if (a.getAttribute('href') === current) {
+            a.classList.add('active');
+        }
+    });
+
+    const year = document.querySelector('#year');
+
+    if (year) {
+        year.textContent = new Date().getFullYear();
+    }
+});
