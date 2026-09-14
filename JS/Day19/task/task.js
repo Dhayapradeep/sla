@@ -1,5 +1,3 @@
-// API 1: Users
-
 const usersShow = document.querySelector("#usersData");
 
 const getUsers = async () => {
@@ -27,9 +25,6 @@ const getUsers = async () => {
 
 getUsers();
 
-
-// API 2: Products
-
 const productsShow = document.querySelector("#productsData");
 
 const getProducts = async () => {
@@ -54,9 +49,6 @@ const getProducts = async () => {
 };
 
 getProducts();
-
-
-// API 3: Posts
 
 const postsShow = document.querySelector("#postsData");
 
@@ -83,8 +75,6 @@ const getPosts = async () => {
 getPosts();
 
 
-// API 4: Comments
-
 const commentsShow = document.querySelector("#commentsData");
 
 const getComments = async () => {
@@ -110,8 +100,6 @@ const getComments = async () => {
 
 getComments();
 
-
-// API 5: Todos
 
 const todosShow = document.querySelector("#todosData");
 
