@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+}
+
+.app {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #1e293b;
+  margin-bottom: 30px;
+}
+
+section {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  color: #334155;
+}
+
+.custom-button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.custom-button:hover {
+  background-color: #1d4ed8;
+}
+
+.custom-input {
+  width: 250px;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.custom-input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.custom-card {
+  max-width: 350px;
+  margin: 20px auto 0;
+  padding: 25px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background-color: #f8fafc;
+}
+
+.custom-card h2 {
+  color: #2563eb;
+}
+
+.custom-card p {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.card-button {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background-color: #15803d;
+}
