@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+}
+
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.app > h1 {
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 40px;
+}
+
+.task-title {
+  color: #334155;
+  text-align: center;
+  margin: 35px 0 20px;
+}
